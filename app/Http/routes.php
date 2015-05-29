@@ -23,7 +23,7 @@ Route::get('auth/login', 'LoginController@index');
 Route::get('register', 'LoginController@create');
 
 
-
+Route::get('/generate/models', '\\Jimbolino\\Laravel\\ModelBuilder\\ModelGenerator5@start');
 
 
 Route::controllers([

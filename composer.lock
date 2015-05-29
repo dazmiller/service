@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6c5f2be23c889e30b44c41b8f82c16d8",
+    "hash": "be320ada562d04ad32bb2f30587d5aec",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -628,6 +628,39 @@
                 "tokenizer"
             ],
             "time": "2015-03-11 20:06:43"
+        },
+        {
+            "name": "jimbolino/laravel-model-builder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Jimbolino/laravel-model-builder.git",
+                "reference": "994bb7a3996b648c8b8ebe51212fa904f3be1eaa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Jimbolino/laravel-model-builder/zipball/994bb7a3996b648c8b8ebe51212fa904f3be1eaa",
+                "reference": "994bb7a3996b648c8b8ebe51212fa904f3be1eaa",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jimbolino\\Laravel\\ModelBuilder\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "description": "builds eloquent models based on the tables and relations found in your mysql database",
+            "keywords": [
+                "builder",
+                "eloquent",
+                "laravel",
+                "models"
+            ],
+            "time": "2015-05-29 00:17:31"
         },
         {
             "name": "laravel/framework",
@@ -3101,7 +3134,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "jimbolino/laravel-model-builder": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

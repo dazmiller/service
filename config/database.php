@@ -56,7 +56,7 @@ return [
 			'driver'    => 'mysql',
 			'host'      => env('DB_HOST', 'localhost'),
             'unix_socket' => env('UNIX_SOCKET', ''),
-			'database'  => env('DB_DATABASE', 'quiz'),
+			'database'  => env('DB_DATABASE', 'auction'),
 			'username'  => env('DB_USERNAME', 'root'),
 			'password'  => env('DB_PASSWORD', ''),
 			'charset'   => 'utf8',

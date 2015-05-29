@@ -153,6 +153,7 @@ return [
          */
         'GrahamCampbell\Exceptions\ExceptionsServiceProvider'
 
+
 	],
 
 	/*
@@ -203,6 +204,7 @@ return [
         'Form'      => 'Illuminate\Html\FormFacade',
         'Html'      => 'Illuminate\Html\HtmlFacade',
         'Debugbar' => 'Barryvdh\Debugbar\Facade',
+
 
 	],
 

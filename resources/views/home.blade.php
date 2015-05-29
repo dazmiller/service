@@ -46,7 +46,7 @@
                              data-easing="Power3.easeInOut"
                              data-endspeed="300"
                              style="z-index: 2">
-                            <h5>Take back the power, let companies chase you for your business <br> No more wasting time or running around.</h5>
+                            <h5>Take back the power, let companies chase you for your business ok dog <br> No more wasting time or running around.</h5>
                         </div>
                     </li>
                     <!-- SLIDE 2 -->

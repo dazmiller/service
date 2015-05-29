@@ -11,6 +11,7 @@ return array(
     'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'League\\Flysystem\\' => array($vendorDir . '/league/flysystem/src'),
+    'Jimbolino\\Laravel\\ModelBuilder\\' => array($vendorDir . '/jimbolino/laravel-model-builder/src'),
     'Illuminate\\Html\\' => array($vendorDir . '/illuminate/html'),
     'Illuminate\\' => array($vendorDir . '/laravel/framework/src/Illuminate'),
     'GrahamCampbell\\Exceptions\\' => array($vendorDir . '/graham-campbell/exceptions/src'),
